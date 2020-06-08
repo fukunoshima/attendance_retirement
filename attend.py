@@ -36,7 +36,8 @@ def attend():
 
     random_wait()
 
-    browser=webdriver.Chrome() # use chrome
+    #browser=webdriver.Chrome() # use chrome
+    browser=webdriver.Firefox() # use firefox
     
     browser.get(website)
     
