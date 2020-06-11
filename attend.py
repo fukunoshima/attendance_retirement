@@ -69,7 +69,8 @@ def retire():
 
     random_wait()
 
-    browser=webdriver.Chrome() # use chrome
+    #browser=webdriver.Chrome() # use chrome
+    browser=webdriver.Firefox() # use chrome
     
     browser.get(website)
     
